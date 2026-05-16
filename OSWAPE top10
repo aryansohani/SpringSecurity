@@ -1,0 +1,41 @@
+*OWASP Top 10*
+
+OWASP Top 10 is a list of the most critical web application security risks. It helps developers understand common vulnerabilities and build secure applications.
+
+OWASP Top 10 Vulnerabilities
+Broken Access Control
+Users can access unauthorized data or functions.
+
+Cryptographic Failures
+Weak encryption or improper handling of sensitive data.
+
+Injection
+Malicious code or queries are inserted into the application (e.g., SQL Injection).
+
+Insecure Design
+Security flaws due to poor application design.
+
+Security Misconfiguration
+Improper security settings, default passwords, or unnecessary features enabled.
+
+Vulnerable and Outdated Components
+Using old libraries or frameworks with known vulnerabilities.
+
+Identification and Authentication Failures
+Weak login systems, poor password handling, or broken authentication.
+
+Software and Data Integrity Failures
+Untrusted software updates or insecure CI/CD pipelines.
+
+Security Logging and Monitoring Failures
+Lack of proper logging and monitoring for detecting attacks.
+
+Server-Side Request Forgery (SSRF)
+Attackers force the server to make unauthorized requests to internal/external systems.
+
+*Importance of OWASP Top 10*
+
+Helps developers build secure applications
+Identifies common attack methods
+Improves application security awareness
+Acts as a guideline for secure coding practices

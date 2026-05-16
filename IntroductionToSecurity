@@ -1,0 +1,18 @@
+*Need of Spring Security*
+
+Spring Security is needed to protect web applications and APIs from unauthorized access and security threats. Modern applications handle sensitive user data such as passwords, personal information, payments, and private resources, so proper security is essential.
+
+Why Spring Security is Important
+Prevents unauthorized users from accessing the application
+Provides secure login and authentication mechanisms
+Controls user access using roles and permissions
+Encrypts and securely stores passwords
+Protects applications from attacks like:
+CSRF (Cross-Site Request Forgery)
+Session hijacking
+Clickjacking
+Secures REST APIs and backend services
+Manages user sessions securely
+Supports modern authentication methods like JWT and OAuth2
+
+Without security, applications become vulnerable to data theft, unauthorized access, and cyberattacks. Spring Security simplifies implementing strong security in Spring Boot applications using built-in features and configurations.
