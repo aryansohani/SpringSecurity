@@ -1,6 +1,7 @@
 package com.aryan.springsecuritycofigurations;
 
 import jakarta.servlet.http.HttpServletRequest;
+import org.springframework.boot.web.server.servlet.Session;
 import org.springframework.security.web.csrf.CsrfToken;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -36,6 +37,12 @@ public class StudentController {
         studentlist.add(s);
 
         System.out.println("Studentadded");
+    }
+
+    @GetMapping("/session")
+    public String sessionid(HttpServletRequest request)
+    {
+       return request.getSession().getId();
     }
 
 
